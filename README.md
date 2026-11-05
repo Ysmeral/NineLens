@@ -80,6 +80,10 @@ override.cfg
 nbr_cheat.gd
 ```
 
+**如果卸载程序跑不起来（提示权限不足、文件被占用、找不到游戏目录等）**，
+把游戏目录直接交给 AI Agent（Claude Code / Codex / DeepSeek Harness / Cursor 等）处理，
+让它代你删掉上面这两个文件即可 —— 整个过程只涉及文件删除，不需要懂命令行。
+
 ---
 
 ## 按键

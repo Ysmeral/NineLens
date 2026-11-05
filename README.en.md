@@ -81,6 +81,10 @@ override.cfg
 nbr_cheat.gd
 ```
 
+**If the uninstaller fails** (permission denied, file in use, game folder not found),
+hand the game folder to an AI agent (Claude Code / Codex / DeepSeek Harness / Cursor, etc.)
+and let it delete the two files above — it is a plain file deletion, no command line knowledge needed.
+
 ---
 
 ## Keys
