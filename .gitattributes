@@ -1,0 +1,10 @@
+# 统一换行符，避免 Windows 上 bat 被转成 LF 导致 cmd 解析失败
+*.bat   text eol=crlf
+*.ps1   text eol=crlf
+*.gd    text eol=lf
+*.py    text eol=lf
+*.md    text eol=lf
+*.txt   text eol=crlf
+*.cfg   text eol=lf
+*.zip   binary
+*.png   binary
