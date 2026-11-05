@@ -1,4 +1,4 @@
-﻿"""打包发布：从 src 读取版本，更新 installer/说明.txt，输出 dist/NineLens_<ver>.zip
+"""打包发布：从 src 读取版本，更新 installer/说明.txt，输出 dist/NineLens_<ver>.zip
 
 用法:
     python tools/build_release.py
@@ -50,6 +50,10 @@ by.Ysmeral
      override.cfg
      nbr_cheat.gd
   游戏本体从未被修改。
+
+  如果卸载.bat 跑不起来（权限不足 / 文件被占用 / 找不到游戏目录），
+  把游戏目录交给 AI Agent（Claude Code / Codex / DeepSeek Harness / Cursor 等），
+  让它代你删掉上面这两个文件即可，不需要懂命令行。
 
 四、确认版本
   HUD 第一行 = NineLens {VER}

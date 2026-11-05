@@ -1,6 +1,6 @@
 ﻿NineLens V1.0  —  《九球轮盘赌》(Nine-Ball Roulette) 外挂
 by.Ysmeral
-构建时间: 2026-11-05 23:12
+构建时间: 2026-11-05 23:34
 本体校验: 3b99e9d1db6f
 
 【声明】本项目已停止维护，不再更新；仅用于 AI 破甲测试与技术研究；
@@ -32,6 +32,10 @@ by.Ysmeral
      override.cfg
      nbr_cheat.gd
   游戏本体从未被修改。
+
+  如果卸载.bat 跑不起来（权限不足 / 文件被占用 / 找不到游戏目录），
+  把游戏目录交给 AI Agent（Claude Code / Codex / DeepSeek Harness / Cursor 等），
+  让它代你删掉上面这两个文件即可，不需要懂命令行。
 
 四、确认版本
   HUD 第一行 = NineLens V1.0
